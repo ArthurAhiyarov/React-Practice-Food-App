@@ -22,7 +22,7 @@ const MealItemForm = (props) => {
             return;
         }
 
-        props.onAddtoCart(enteredAmountNumber);
+        props.onAddToCart(enteredAmountNumber);
     };
 
     return (
@@ -36,7 +36,7 @@ const MealItemForm = (props) => {
                     min: '1',
                     max: '5',
                     step: '1',
-                    defaultvalue: '1',
+                    defaultValue: '1',
                 }}
             />
             <button>+ Add</button>
